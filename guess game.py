@@ -1,6 +1,6 @@
 import random
-word_list=["aardvark","baboon","camel","ghost"]
-index=random.randint(0,3)
+word_list=["aardvark","baboon","camel","ghost","fish"]
+index=random.randint(0,4)
 chosen_word=word_list[index]
 #print(chosen_word)
 blank=""
