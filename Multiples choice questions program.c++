@@ -11,7 +11,7 @@ int main(){
                       {"A.c++","B.cobbol","C.c","D."},
                       {"A.8","B.32","C.4","D.16"}};
   string answers[]={"C","A","D","B"};
-  int size=sizeof questions/sizeof questions[0];
+  int size=sizeof questions/sizeof questions[0],correct=0;
   string guess[size];
     for(int i=0;i<size;i++){
     cout<<"******************************\n"<<questions[i]<<"\n******************************\n";
@@ -23,9 +23,11 @@ int main(){
     //guess[i]=toupper(guess[i]);
     if(guess[i]==answers[i]){
       cout<<"*** CORRECT ***\n\n\n";
+      correct+=1;
     }
     else{cout<<"*** WRONG ****\n\n\n";}
   }
+  cout<<"your final score is "<<correct<<"/4";
 
   return 0;
 }
