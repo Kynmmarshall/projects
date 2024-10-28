@@ -25,9 +25,11 @@ int main(){
       cout<<"*** CORRECT ***\n\n\n";
       correct+=1;
     }
-    else{cout<<"*** WRONG ****\n\n\n";}
+    else{cout<<"*** WRONG ****\n";
+    cout<<"Correct Answer: "<<answers[i]<<"\n\n";
+    }
   }
-  cout<<"your final score is "<<correct<<"/4";
+  cout<<"******************************\n*          RESULT            *\n******************************\n"<<"your final score is "<<correct<<"/4";
 
   return 0;
 }
