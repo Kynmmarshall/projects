@@ -2,13 +2,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-  string questions[]={"1.Which year waas c++ created?",
+  cout<<"\n\n*** WRITE THE LETTER THAT CORRESPONDS TO THE CORRECT ANSWER ***\n\n";
+  string questions[]={"1.Which year was c++ created?",
                        "2.Who created c++?",
                        "3.What was the first programming language created?",
                        "4.How many Bytes can a string datatype store?"};
   string options[][4]={{"A.1976","B.1987","C.1985","D.1973"},
                       {"A.Bjarne Stroustrup","B.Guido Van rossum","C.Bill Gates","D.Arthur Morgan"},
-                      {"A.c++","B.cobbol","C.c","D."},
+                      {"A.c++","B.cobbol","C.c","D.Plankalkül"},
                       {"A.8","B.32","C.4","D.16"}};
   string answers[]={"C","A","D","B"};
   int size=sizeof questions/sizeof questions[0],correct=0;
