@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-  cout<<"\n\n*** WRITE THE LETTER THAT CORRESPONDS TO THE CORRECT ANSWER ***\n\n";
+  cout<<"\n\n*** WRITE THE LETTER THAT CORRESPONDS TO THE CORRECT ANSWER (UPPER CASE LETTER) ***\n\n";
   string questions[]={"1.Which year was c++ created?",
                        "2.Who created c++?",
                        "3.What was the first programming language created?",
